@@ -1,21 +1,21 @@
 ﻿/* ================================
-   GLOBAL LIGHT MINIMAL THEME
+   ธีมแบบ Light เรียบ ๆ สบายตา
    ================================ */
 
-/* พื้นหลังหลัก – ขาวนวล ไม่แสบตา */
+/* พื้นหลังหลัก – สีอ่อนๆ ไม่ปวดตา */
 body {
-    background-color: #DCE3E0 !important; /* soft light */
+    background-color: #DCE3E0 !important;
 }
 
-/* ฟอนต์ทั้งหน้า */
+/* ฟอนต์ทั้งหน้า ให้ดูเรียบง่าย */
 .swagger-ui,
 .swagger-ui * {
     font-family: system-ui, -apple-system, "Segoe UI", sans-serif !important;
-    color: #374151 !important; /* text-gray-700 */
+    color: #374151 !important;
 }
 
     /* ================================
-   TOPBAR
+   ส่วนหัวบนสุด (Topbar)
    ================================ */
     .swagger-ui .topbar {
         background-color: #ffffff !important;
@@ -23,25 +23,27 @@ body {
         box-shadow: none !important;
     }
 
+        /* ชื่อโปรเจคบนแถบด้านบน */
         .swagger-ui .topbar .link span {
-            color: #111827 !important; /* darker text */
+            color: #111827 !important;
             font-weight: 600 !important;
             letter-spacing: 0.01em;
         }
 
+        /* ซ่อนโลโก้ให้หน้าตาดู minimal ขึ้น */
         .swagger-ui .topbar .link img {
-            display: none !important; /* ซ่อนโลโก้ให้ minimal */
+            display: none !important;
         }
 
     /* ================================
-   WRAPPER
+   ตัว Wrapper ของ Swagger
    ================================ */
     .swagger-ui .wrapper {
         background-color: transparent !important;
     }
 
     /* ================================
-   API BLOCKS (CARD STYLE)
+   Block API แต่ละอัน (ทำเป็นการ์ด)
    ================================ */
     .swagger-ui .opblock {
         background-color: #ffffff !important;
@@ -51,26 +53,27 @@ body {
         margin-bottom: 14px !important;
     }
 
-    /* Header summary */
+    /* ส่วนสรุปบนหัวการ์ด */
     .swagger-ui .opblock-summary {
         background-color: #ffffff !important;
         border-radius: 12px !important;
         padding: 12px 16px !important;
     }
 
-    /* Path text */
+    /* ตัว Path ของ API */
     .swagger-ui .opblock-summary-path {
-        color: #111827 !important; /* dark */
+        color: #111827 !important;
         font-weight: 500 !important;
     }
 
-    /* Description text */
+    /* Description ใต้ชื่อ API */
     .swagger-ui .opblock-summary-description {
-        color: #6b7280 !important; /* gray-500 */
+        color: #6b7280 !important;
     }
 
     /* ================================
-   METHOD BADGE (Soft pastel)
+   ป้าย Method (GET/POST/PUT/DELETE)
+   ใช้สีพาสเทลให้นุ่ม ๆ
    ================================ */
     .swagger-ui .opblock-summary-method {
         font-weight: 600 !important;
@@ -80,54 +83,56 @@ body {
         font-size: 11px !important;
     }
 
-    /* สีแบบ pastel modern */
+    /* สีป้ายแต่ละ Method */
     .swagger-ui .opblock-get .opblock-summary-method {
-        background-color: #60a5fa !important; /* soft blue */
+        background-color: #60a5fa !important; /* ฟ้าอ่อน */
     }
 
     .swagger-ui .opblock-post .opblock-summary-method {
-        background-color: #34d399 !important; /* mint green */
+        background-color: #34d399 !important; /* เขียวมิ้นต์ */
     }
 
     .swagger-ui .opblock-put .opblock-summary-method {
-        background-color: #fb923c !important; /* soft orange */
+        background-color: #fb923c !important; /* ส้มพาสเทล */
     }
 
     .swagger-ui .opblock-delete .opblock-summary-method {
-        background-color: #f87171 !important; /* soft red */
+        background-color: #f87171 !important; /* แดงอ่อน */
     }
 
     /* ================================
-   BUTTONS – Minimal Rounded
+   ปุ่มต่าง ๆ ให้โค้งๆ มินิมอล
    ================================ */
     .swagger-ui .btn {
         border-radius: 999px !important;
         padding: 6px 16px !important;
-        border: 1px solid #d1d5db !important; /* soft border */
+        border: 1px solid #d1d5db !important;
         background-color: #ffffff !important;
         color: #374151 !important;
         box-shadow: none !important;
     }
 
+        /* Hover ของปุ่ม */
         .swagger-ui .btn:hover {
-            background-color: #f3f4f6 !important; /* hover gray */
+            background-color: #f3f4f6 !important;
         }
 
-        /* Try It Out - Primary pastel */
+        /* ปุ่ม Try It Out ให้เด่นขึ้น */
         .swagger-ui .btn.try-out__btn {
-            background-color: #3b82f6 !important; /* blue-500 */
+            background-color: #3b82f6 !important; /* ฟ้าน้ำเงิน */
             border-color: #3b82f6 !important;
             color: #ffffff !important;
         }
 
+        /* ปุ่ม Execute สีเขียวให้ดูพร้อมใช้งาน */
         .swagger-ui .btn.execute.opblock-control__btn {
-            background-color: #10b981 !important; /* green-500 */
+            background-color: #10b981 !important;
             border-color: #10b981 !important;
             color: #ffffff !important;
         }
 
     /* ================================
-   INPUTS
+   ช่องกรอก Input ใน Swagger
    ================================ */
     .swagger-ui input[type="text"],
     .swagger-ui textarea,
@@ -139,12 +144,13 @@ body {
         color: #374151 !important;
     }
 
+    /* สี placeholder ให้ดูกลางๆ */
     .swagger-ui input::placeholder {
-        color: #9ca3af !important; /* gray-400 */
+        color: #9ca3af !important;
     }
 
     /* ================================
-   TABLES
+   ตารางข้อมูล
    ================================ */
     .swagger-ui table thead tr th {
         background-color: #fafafa !important;
@@ -158,7 +164,7 @@ body {
     }
 
     /* ================================
-   JSON CODE BLOCK
+   ส่วนแสดง JSON / โค้ด
    ================================ */
     .swagger-ui .microlight,
     .swagger-ui pre,
