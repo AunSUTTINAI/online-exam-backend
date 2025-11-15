@@ -1,0 +1,170 @@
+﻿/* ================================
+   GLOBAL LIGHT MINIMAL THEME
+   ================================ */
+
+/* พื้นหลังหลัก – ขาวนวล ไม่แสบตา */
+body {
+    background-color: #DCE3E0 !important; /* soft light */
+}
+
+/* ฟอนต์ทั้งหน้า */
+.swagger-ui,
+.swagger-ui * {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif !important;
+    color: #374151 !important; /* text-gray-700 */
+}
+
+    /* ================================
+   TOPBAR
+   ================================ */
+    .swagger-ui .topbar {
+        background-color: #ffffff !important;
+        border-bottom: 1px solid #e5e7eb !important;
+        box-shadow: none !important;
+    }
+
+        .swagger-ui .topbar .link span {
+            color: #111827 !important; /* darker text */
+            font-weight: 600 !important;
+            letter-spacing: 0.01em;
+        }
+
+        .swagger-ui .topbar .link img {
+            display: none !important; /* ซ่อนโลโก้ให้ minimal */
+        }
+
+    /* ================================
+   WRAPPER
+   ================================ */
+    .swagger-ui .wrapper {
+        background-color: transparent !important;
+    }
+
+    /* ================================
+   API BLOCKS (CARD STYLE)
+   ================================ */
+    .swagger-ui .opblock {
+        background-color: #ffffff !important;
+        border: 1px solid #e5e7eb !important;
+        border-radius: 12px !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.04) !important;
+        margin-bottom: 14px !important;
+    }
+
+    /* Header summary */
+    .swagger-ui .opblock-summary {
+        background-color: #ffffff !important;
+        border-radius: 12px !important;
+        padding: 12px 16px !important;
+    }
+
+    /* Path text */
+    .swagger-ui .opblock-summary-path {
+        color: #111827 !important; /* dark */
+        font-weight: 500 !important;
+    }
+
+    /* Description text */
+    .swagger-ui .opblock-summary-description {
+        color: #6b7280 !important; /* gray-500 */
+    }
+
+    /* ================================
+   METHOD BADGE (Soft pastel)
+   ================================ */
+    .swagger-ui .opblock-summary-method {
+        font-weight: 600 !important;
+        padding: 3px 10px !important;
+        border-radius: 999px !important;
+        color: #ffffff !important;
+        font-size: 11px !important;
+    }
+
+    /* สีแบบ pastel modern */
+    .swagger-ui .opblock-get .opblock-summary-method {
+        background-color: #60a5fa !important; /* soft blue */
+    }
+
+    .swagger-ui .opblock-post .opblock-summary-method {
+        background-color: #34d399 !important; /* mint green */
+    }
+
+    .swagger-ui .opblock-put .opblock-summary-method {
+        background-color: #fb923c !important; /* soft orange */
+    }
+
+    .swagger-ui .opblock-delete .opblock-summary-method {
+        background-color: #f87171 !important; /* soft red */
+    }
+
+    /* ================================
+   BUTTONS – Minimal Rounded
+   ================================ */
+    .swagger-ui .btn {
+        border-radius: 999px !important;
+        padding: 6px 16px !important;
+        border: 1px solid #d1d5db !important; /* soft border */
+        background-color: #ffffff !important;
+        color: #374151 !important;
+        box-shadow: none !important;
+    }
+
+        .swagger-ui .btn:hover {
+            background-color: #f3f4f6 !important; /* hover gray */
+        }
+
+        /* Try It Out - Primary pastel */
+        .swagger-ui .btn.try-out__btn {
+            background-color: #3b82f6 !important; /* blue-500 */
+            border-color: #3b82f6 !important;
+            color: #ffffff !important;
+        }
+
+        .swagger-ui .btn.execute.opblock-control__btn {
+            background-color: #10b981 !important; /* green-500 */
+            border-color: #10b981 !important;
+            color: #ffffff !important;
+        }
+
+    /* ================================
+   INPUTS
+   ================================ */
+    .swagger-ui input[type="text"],
+    .swagger-ui textarea,
+    .swagger-ui select {
+        background-color: #ffffff !important;
+        border: 1px solid #d1d5db !important;
+        border-radius: 8px !important;
+        padding: 6px !important;
+        color: #374151 !important;
+    }
+
+    .swagger-ui input::placeholder {
+        color: #9ca3af !important; /* gray-400 */
+    }
+
+    /* ================================
+   TABLES
+   ================================ */
+    .swagger-ui table thead tr th {
+        background-color: #fafafa !important;
+        border-bottom: 1px solid #e5e7eb !important;
+        color: #6b7280 !important;
+    }
+
+    .swagger-ui table tbody tr td {
+        background-color: #ffffff !important;
+        border-top: 1px solid #f3f4f6 !important;
+    }
+
+    /* ================================
+   JSON CODE BLOCK
+   ================================ */
+    .swagger-ui .microlight,
+    .swagger-ui pre,
+    .swagger-ui code {
+        background-color: #f9fafb !important;
+        border: 1px solid #e5e7eb !important;
+        color: #111827 !important;
+        border-radius: 10px !important;
+    }

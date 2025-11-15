@@ -1,0 +1,62 @@
+﻿[
+  {
+    "id": 1,
+    "question": "ภาษาที่ใช้พัฒนาเว็บฝั่งเซิร์ฟเวอร์คือข้อใด?",
+    "options": [ "HTML", "CSS", "Node.js", "Figma" ],
+    "correct_answer": "Node.js"
+  },
+  {
+    "id": 2,
+    "question": "ข้อใดคือฐานข้อมูลเชิงสัมพันธ์ (Relational Database)?",
+    "options": [ "MongoDB", "Firebase", "MySQL", "Redis" ],
+    "correct_answer": "MySQL"
+  },
+  {
+    "id": 3,
+    "question": "HTTP Status Code 404 หมายถึงอะไร?",
+    "options": [ "Server Error", "Not Found", "Bad Request", "OK" ],
+    "correct_answer": "Not Found"
+  },
+  {
+    "id": 4,
+    "question": "คำสั่ง SELECT ใช้ทำอะไรใน SQL?",
+    "options": [ "ลบข้อมูล", "เพิ่มข้อมูล", "ดึงข้อมูล", "แก้ไขข้อมูล" ],
+    "correct_answer": "ดึงข้อมูล"
+  },
+  {
+    "id": 5,
+    "question": "JavaScript ทำงานในฝั่งใดเป็นหลัก?",
+    "options": [ "Client", "Server", "Database", "Network" ],
+    "correct_answer": "Client"
+  },
+  {
+    "id": 6,
+    "question": "Git ใช้สำหรับทำอะไร?",
+    "options": [ "Deploy Server", "จัดการเวอร์ชันโค้ด", "ออกแบบ UI", "ทดสอบ API" ],
+    "correct_answer": "จัดการเวอร์ชันโค้ด"
+  },
+  {
+    "id": 7,
+    "question": "คำสั่ง npm install ใช้เพื่ออะไร?",
+    "options": [ "ลบแพ็กเกจ", "อัปเดตโปรเจกต์", "ติดตั้งแพ็กเกจ", "รันเซิร์ฟเวอร์" ],
+    "correct_answer": "ติดตั้งแพ็กเกจ"
+  },
+  {
+    "id": 8,
+    "question": "ในการพัฒนา API รูปแบบ RESTful ควรใช้ HTTP Method ใดสำหรับสร้างข้อมูลใหม่?",
+    "options": [ "GET", "POST", "PUT", "DELETE" ],
+    "correct_answer": "POST"
+  },
+  {
+    "id": 9,
+    "question": "ข้อใดคือประเภทของ NoSQL Database?",
+    "options": [ "PostgreSQL", "SQL Server", "MongoDB", "MariaDB" ],
+    "correct_answer": "MongoDB"
+  },
+  {
+    "id": 10,
+    "question": "JWT ใช้เพื่ออะไรในระบบ Authentication?",
+    "options": [ "เก็บรหัสผ่าน", "ยืนยันตัวตนแบบ Token", "เก็บไฟล์รูปภาพ", "ทำงานแทน API" ],
+    "correct_answer": "ยืนยันตัวตนแบบ Token"
+  }
+]
